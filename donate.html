@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Донат | Vice City RP</title>
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/donate.min.css">
+    <link rel="stylesheet" href="css/header.min.css">
+    <link rel="stylesheet" href="css/footer.min.css">
+
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+
+                <div class="logotype-wrapper">
+                    <a href="index.html" class="logotype">Vice City <span>RP</span></a>
+                </div>
+
+                <nav class="navbar">
+                    <ul class="navbar-list t-1">
+                        <li class="navbar-list-item ">
+                            <a href="index.html" class="navbar-link">Главная</a>
+                        </li>
+
+                        <li class="navbar-list-item">
+                            <a href="http://vk.com/vc_samp" class="navbar-link">ВКонтакте</a>
+                        </li>
+
+                        <li class="navbar-list-item">
+                            <a href="http://vk.me/vc_samp" class="navbar-link">Подарок</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="donate-link-wrapper">
+                    <a href="donate.html" class="donate-link gradient-button">Донат</a>
+                </div>
+
+            </div>
+
+        </header>
+
+        <div class="donate-block-wrapper">
+            <div class="donate-page-background"></div>
+            <div class="violet-overlay"></div>
+            <div class="donate-page-light"></div>
+
+            <div class="container">
+                <div class="donate-block">
+                    <div class="donate-title">Пополнить свой счет</div>
+                    <form action="https://vicecity-samp.ru/core/donate_handler.php" method="post" class="donate-form">
+                        <div class="input-wrapper">
+                            <img src="images/donate-page/user.svg" alt="User Icon">
+                            <input type="text" class="donate-input input-nickname" placeholder="Ваш никнейм"
+                                name="account">
+
+                        </div>
+
+                        <div class="input-wrapper">
+                            <img src="images/donate-page/wallet.svg" alt="Wallet Icon">
+                            <input type="number" class="donate-input input-wallet" placeholder="Сумма пополнения"
+                                name="sum" min="20">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <img src="images/donate-page/email.svg" alt="Email Icon">
+                            <input type="customerEmail" class="donate-input input-email" placeholder="Email"
+                                name="customerEmail">
+                        </div>
+
+                        <span class="donate-course">1 рубль = 1 донат-рубль</span>
+
+                        <button class="donate-button gradient-button">Пополнить</button>
+
+                    </form>
+                </div>
+            </div>
+
+            <img src="images/donate-page/donate-block-art.webp" alt="" class="donate-block-art">
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="d-flex justify-space-between footer-navbar-wrapper">
+                    <a href="index.html" class="logotype">Vice City <span>RP</span></a>
+                    <div class="d-flex justify-space-between">
+                        <nav class="footer-navbar">
+                            <ul class="footer-navbar-list">
+                                <li class="footer-navbar-item">
+                                    <a href="donate.html#" class="footer-navbar-link">Главная</a>
+                                </li>
+                                <li class="footer-navbar-item">
+                                    <a href="http://vk.com/vc_samp" class="footer-navbar-link">ВКонтакте</a>
+                                </li>
+                                <li class="footer-navbar-item">
+                                    <a href="http://vk.me/vc_samp" class="footer-navbar-link">Подарок</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+                <div class="payments-logotypes">
+                    <img src="images/footer/payments-logotypes.webp" alt="Payments">
+                </div>
+
+
+                <nav class="footer-info">
+                    <ul class="footer-info-list">
+                        <li class="footer-info-item">
+                            <a href="oferta.pdf" class="footer-info-link">Пользовательское
+                                соглашение</a>
+                        </li>
+                        <li class="footer-info-item">
+                            <a href="donate.html#" class="footer-info-link">All rights reserved</a>
+                        </li>
+                        <li class="footer-info-item">
+                            <a href="politic.pdf" class="footer-info-link">Положение о
+                                конфиденциальности</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </footer>
+
+        <script src="js/donate-valid.min.js"></script>
+    </div>
+
+    <!-- Сайт разработан vk.com/uvanov_vk -->
+</body>
+
+</html>
